@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../assets/SaileshProfile.png";
+import profilepic from "../assets/Sailesh2.jpg";
 import { ABOUT_TEXT } from "../constants/index.js";
 import { motion } from "framer-motion";
 
