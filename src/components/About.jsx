@@ -36,7 +36,7 @@ const About = () => {
             </div>
             <div className="flex justify-center lg:justify-start my-8">
               <a
-                href="public/Sailendra_Prasath_N.pdf"
+                href="/Sailendra_Prasath_N.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 bg-purple-700 text-white font-semibold rounded-lg shadow-md hover:bg-purple-800 transition duration-300"
               >
