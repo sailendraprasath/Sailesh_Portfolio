@@ -1,4 +1,3 @@
-import React from "react";
 import profilepic from "../assets/Sailesh2.jpg";
 import { ABOUT_TEXT } from "../constants/index.js";
 import { motion } from "framer-motion";
@@ -34,6 +33,28 @@ const About = () => {
           >
             <div className="flex justify-center lg:justify-start ">
               <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            </div>
+            <div className="flex justify-center lg:justify-start my-8">
+              <a
+                href="/src/assets/Sailendra_Prasath_N.pdf"
+                download
+                className="inline-flex items-center px-6 py-3 bg-purple-700 text-white font-semibold rounded-lg shadow-md hover:bg-purple-800 transition duration-300"
+              >
+                <svg
+                  className="w-5 h-5 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4 4v16h16V4H4zm4 8l4 4 4-4m-4-4v8"
+                  />
+                </svg>
+                Download Resume
+              </a>
             </div>
           </motion.div>
         </div>

@@ -1,12 +1,12 @@
-import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
-import { DiNodejs } from "react-icons/di";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaCss3Alt } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import OpenCV from "../assets/openCV.png";
+import Python from "../assets/Python.png";
+import Excel from "../assets/Excel.png";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -45,7 +45,35 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <RiReactjsLine className="text-7xl text-cyan-400  bg-white rounded-xl" />
+            <img
+              src={OpenCV}
+              alt="OpenCV"
+              className="text-7xl w-[75px] bg-white rounded-xl"
+            />
+          </motion.div>
+          <motion.div
+            variants={iconVariants(1.2)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-400 p-4"
+          >
+            <img
+              src={Python}
+              alt="OpenCV"
+              className="text-7xl w-[75px] bg-white rounded-xl"
+            />
+          </motion.div>
+          <motion.div
+            variants={iconVariants(1.2)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-400 p-4"
+          >
+            <img
+              src={Excel}
+              alt="OpenCV"
+              className="text-7xl w-[75px] bg-white rounded-xl"
+            />
           </motion.div>
           <motion.div
             variants={iconVariants(2.5)}
@@ -64,22 +92,6 @@ const Technologies = () => {
             <FaCss3Alt className="text-7xl text-blue-600 bg-white rounded-xl" />
           </motion.div>
           <motion.div
-            variants={iconVariants(3)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-400 p-4"
-          >
-            <SiTailwindcss className="text-7xl text-cyan-400  bg-white rounded-xl" />
-          </motion.div>
-          <motion.div
-            variants={iconVariants(1.2)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-400 p-4"
-          >
-            <DiNodejs className="text-7xl text-green-500  bg-white rounded-xl" />
-          </motion.div>
-          <motion.div
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
@@ -93,7 +105,15 @@ const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-400 p-4"
           >
-            <SiMongodb className="text-7xl text-green-500  bg-white rounded-xl" />
+            <RiReactjsLine className="text-7xl text-cyan-400  bg-white rounded-xl" />
+          </motion.div>
+          <motion.div
+            variants={iconVariants(3)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-400 p-4"
+          >
+            <SiTailwindcss className="text-7xl text-cyan-400  bg-white rounded-xl" />
           </motion.div>
         </motion.div>
       </div>
