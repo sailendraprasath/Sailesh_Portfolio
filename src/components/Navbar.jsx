@@ -1,6 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
+// import { FaSquareInstagram } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <>
@@ -12,9 +12,9 @@ const Navbar = () => {
           <a href="https://github.com/sailendraprasath">
             <FaGithub size={30} />
           </a>
-          <a href="https://www.instagram.com/____saileshhhh____/">
+          {/* <a href="https://www.instagram.com/____saileshhhh____/">
             <FaSquareInstagram size={30} />
-          </a>
+          </a> */}
         </div>
       </nav>
     </>

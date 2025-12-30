@@ -10,7 +10,7 @@ export const HERO_CONTENT = ` A highly motivated, positive, hardworking and the 
  passion for continuous learning to a dynamic professional environment, and
  looking for a responsible role to improve my knowledge and take my assigned
  organization to the next level.`;
-export const ABOUT_TEXT = `I’m a final year Computer Science & Business Systems student with a strong passion for Artificial Intelligence, Computer Vision (OpenCV), and Frontend Web Development. I enjoy building visually engaging and user-friendly web interfaces while also diving deep into the world of intelligent systems and automation.`;
+export const ABOUT_TEXT = `I’m a final year Computer Science & Business Systems student focused on Frontend Web Development. I have hands-on experience in building responsive and interactive user interfaces, and I enjoy translating UI designs into clean, efficient frontend code while ensuring good user experience.`;
 export const EXPERIENCES = [
   {
     Img_png: Alphagnito,
@@ -43,6 +43,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Portfolio Website",
+    image: project1,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["Tailwind CSS", "ReactJS", "HTML", "CSS"],
+  },
+  {
     title: "Attendance tracking system using face recognition opencv",
     image: Py_Project1,
     description:
@@ -50,18 +57,11 @@ export const PROJECTS = [
     technologies: ["OpenCV", "Python"],
   },
   {
-    title: "Yellow Color Detection Using OpenCV",
+    title: "Django applications with CRUD",
     image: Py_Project2,
     description:
-      " Built a real-time yellow object detection system using OpenCV and HSV color masking to identify yellow objects in images and video feeds",
-    technologies: ["OpenCV", "Python"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project1,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Tailwind CSS", "ReactJS"],
+      "Built Django applications with CRUD (Create, Read, Update, Delete) operations",
+    technologies: ["Python", "Django", "HTML", "CSS", "MySQL"],
   },
 ];
 
